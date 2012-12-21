@@ -1,0 +1,198 @@
+/**
+ * Theme Name: CreationTheme
+ * Theme URI: http://localhost/wordpress/
+ * Description: Ly first custom theme
+ * Version: 0.1.1
+ * Author: David Z
+ * Author URI: http://davidz.fr
+ * Tags: simple, test
+ * License: GNU General Public License v2.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ */
+
+body{
+	font-family : Lucida Grande, Arial, Helvetica, Sans-serif;
+	font-size : 0.8em;
+	text-align : left;
+
+	color : #006699;
+	margin : 0;	
+	padding:0;
+	height:1200px;
+	background-color: #C2DFFF;
+}
+
+#conteneur{
+	margin: 0 auto;	
+	background-color: #FFFFFF;
+	width:750px
+}
+
+a {
+color: #999950;
+text-decoration: none;
+}
+
+a:hover {
+color: #777;
+text-decoration: underline;
+}
+
+/*
+*	HEADER
+*/
+
+#header{
+	font-family : Trebuchet MS, Lucida Grande, Arial, Helvetica, Georgia, Sans-serif;
+	background : #cccccc;
+	width : 730px;
+	padding : 0 10px 20px 10px;
+	margin : 0 auto 0 auto;
+}
+
+#header h1{
+	padding : 0 20px 0 0;
+	font-size : 2em;
+	text-align : right;
+}
+
+#header p{
+	padding : 0 20px 0 0;
+	font-size : 1em;
+	text-align : right;
+}
+
+/*
+*	PAGE
+*/
+
+#page{
+	margin : 0 auto 0 auto;
+	width : 750px;
+}
+
+
+#content{
+	float : left;
+	width : 500px;
+	margin-bottom : 20px;
+}
+
+#content h2, #content h2 a{
+    font-family : 'Press Start 2P', cursive;
+	font-size : 1.3em;
+	color : #F62817;
+	text-shadow: 0.2em 0.2em 0.2em #E7A1B0
+}
+
+
+.postmetadata{
+	font-size : 0.8em;
+	color : #999;
+}
+
+.post_content{
+	font-size : 1em;
+	color : #555;	
+}
+
+/*
+*	SIDEBAR
+*/
+
+.sidebar{
+	float : right;
+	width : 225px;
+	margin : 20px 0 20px 25px;
+}
+
+.sidebar ul{
+	list-style-type : none;
+	margin : 0;
+	padding : 0 10px;
+}
+
+.sidebar h2{
+	font-size : 1.2em;
+}
+
+
+#footer{
+	font-size : 1em;
+	background : #cccccc;
+	padding : 10px 10px 0 0;
+	clear : both;
+	width : 740px;
+}
+
+#footer p{
+	text-align : right;
+	font-size : 1em;
+	padding : 0 10px 20px 0;
+}
+
+.comments-template{
+	margin : 10px 0 0 0;
+}
+
+.comments-template ol{
+	margin : 10px;
+	padding : 0 0 0 15px;
+	list-style : none;
+}
+
+.comments-template ol p{
+	font-family: Trebuchet MS, Arial, Hevletica, Sans-serif;
+	font-size: 0.9em;
+}
+ 
+.comments-template ol li{
+	margin: 10px 0 0 0;
+	line-height: 15px;
+	padding: 0 0 10px;
+}
+ 
+.comments-template h2, .comments-template h3{
+	font-size: 1.2em;
+}
+ 
+.commentmetadata{
+	font-size: 0.9em;
+}
+ 
+.comments-template p.nocomments{
+	padding: 0;
+}
+ 
+.comments-template textarea{
+	font-family: Trebuchet MS, Arial, Hevletica, Sans-serif;
+	font-size: 0.9em;
+}
+ 
+.cadre_commentaires {
+border-bottom: 1px solid #ccc;
+border-top: 1px solid #ccc;
+}
+
+
+img.alignleft, div.alignleft
+{
+float:left;
+margin:0 0.5em 0.5em 0;
+}
+img.alignright, div.alignright
+{
+float:right;
+margin:0 0 0.5em 0.5em;
+}
+img.aligncenter, div.aligncenter
+{
+text-align:center;
+margin:0 auto;
+}
+
+
+#carousel{
+	height:250px;
+}
